@@ -8,6 +8,7 @@
 var f= [1,2];
 var sum=0
 
+
 // Creating a Fibonnacci array
 
 while (f[f.length-1] < 4000000) 
@@ -18,7 +19,8 @@ f.pop();
 console.log(f);
 
 // Sum all the even numbers
-for ( var i=0, i < f.length, i++)
+
+for ( var i=0; i < f.length; i++)
 {if (f[i]%2===0) { sum += f[i];}}
 
 console.log(sum);
